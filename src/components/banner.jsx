@@ -20,26 +20,8 @@ function Banner() {
   return (
     <section className={styles.background}>
       <div className={styles.interno}>
-        <div className={styles.box}>
-         
-          <span>
-           
-          </span>
-        </div>
-
-      
+       
       </div>
-
-      {/*
-      <video
-      className={styles.video}
-      src="/static/video/banner-video.mp4"
-      muted
-      autoPlay
-      loop
-      />
- */}
- 
       {/* Modal de vídeo */}
       <ModalVideo open={showVideo} onClose={() => setShowVideo(false)} />
       {/* Modal */}
