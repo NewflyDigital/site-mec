@@ -21,41 +21,13 @@ function Banner() {
     <section className={styles.background}>
       <div className={styles.interno}>
         <div className={styles.box}>
-          <h4>Tecnologia, Resistência e Desempenho</h4>
-          <h2>
-            Para quem precisa de força, durabilidade e resultado
-          </h2>
+         
           <span>
-            <Link legacyBehavior href="/">
-              <a>
-                <button
-                  className={styles.video}
-                  onClick={() => setShowVideo(true)}
-                >
-                  VIDEO
-                </button>
-              </a>
-            </Link>
-            <Link legacyBehavior href="/">
-              <a>
-                <button
-                  className={styles.orcamento}
-                  onClick={() => setShowModal(true)}
-                >
-                  Solicitar orçamento
-                </button>
-              </a>
-            </Link>
+           
           </span>
         </div>
 
-        <div className={styles.div_seta_baixo}>
-          <img
-            src="/static/images/seta-baixo.png"
-            alt="seta-baixo"
-            style={{ width: "1.5rem" }}
-          />
-        </div>
+      
       </div>
 
       {/*
