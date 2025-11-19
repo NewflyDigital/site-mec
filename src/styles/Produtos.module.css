@@ -1,0 +1,377 @@
+
+.backgroundimg {
+  /*
+  background-image: url(/static/images/BioCenter-banner-principal.png);*/
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: row;
+  color: #ffffff;
+  height: 50vh;
+  background-color: #101153;
+}
+
+.backgroundimg span{
+  font-size: 28px;
+  letter-spacing: 8px;
+  font-weight: 200;
+  color: #df0000;
+}
+
+
+.banquemsomos {
+  
+  background-image: url(/static/images/BioCenter-banner-principal.png);
+  background-position: center;
+  background-size: cover;
+
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 100%;
+  max-width: 80rem;
+  border-radius: 1rem;
+  margin-top: -10rem;
+}
+
+.background {
+  background-color: #ffffff;
+  width: 100%;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1e1e1e;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/static/images/footer.png);
+  z-index: 123;
+}
+
+/*Categorias*/
+
+.background3 {
+  background-color: transparent;
+  width: 100%;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1e1e1e;
+  flex-direction: column;
+}
+
+.sessoes {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 80rem;
+  margin: 0 auto;
+  margin-top: -7rem;
+  background-color: transparent;
+}
+
+.card {
+  flex: 1;
+  height: 180px;
+  width: 25rem;
+  position: relative;
+  display: flex;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 0rem 0.8rem;
+  cursor: pointer;
+
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.cardHoverImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: height 0.4s ease, opacity 0.4s ease;
+  z-index: 1;
+  border-radius: 1rem;
+}
+
+.card:hover .cardHoverImage,
+.card.selected .cardHoverImage {
+  height: 100%;
+  opacity: 1;
+}
+
+.card:hover {
+  height: 300px;
+  transition: transform 3s ease-out;
+}
+
+.card.selected{
+  height: 300px;
+  transition: transform 3s ease-out;
+}
+
+.card span {
+  width: 100%;
+  max-width: 10rem;
+  position: relative;
+  z-index: 2;
+}
+
+.cardCinza img, .cardVermelho img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  max-width: 20rem;
+  z-index: 12345678;
+  cursor: pointer;
+}
+
+.cardAzul img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: -1.2rem;
+  width: 100%;
+  max-width: 23rem;
+  z-index: 12345678;
+  cursor: pointer;
+}
+
+.card img.card-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+  border-radius: 1rem;
+}
+
+.cardCinza {
+  background-color: #7e7e7e;
+}
+
+.cardAzul {
+  background-color: #000d84;
+}
+
+.cardVermelho {
+  background-color: #df0000;
+}
+
+
+
+
+
+
+
+
+.interno {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 80rem;
+}
+
+.box {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box2 {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.box3 {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.titulo {
+  color: #002c5e;
+  margin-bottom: 4rem;
+}
+
+.produtos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cardProduto {
+  max-width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem;
+  border: 1px solid #ffffff;
+  overflow: hidden;
+  background-color: #ffffff;
+  transition: 1s ease;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.cardProduto:hover {
+  border: 1px solid #df0000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: 1s ease;
+}
+
+
+.cardProduto img {
+  max-width: 18rem;
+  height: auto;
+  margin-top: 1rem;
+}
+
+.cardProduto h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cardProduto p {
+  font-size: 16px;
+  margin-bottom: 0rem;
+}
+
+.cardProduto span {
+  width: 100%;
+  background-color: #ffffff;
+  color: #101153;
+  margin: 0;
+  padding: 1rem;
+  transition: 1s ease;
+}
+
+.cardProduto:hover span {
+  background-color: #df0000;
+  color: #ffffff;
+  transition: 1s ease;
+}
+
+.botaofooter {
+  background-color: #df0000;
+  color: #fff;
+  padding: 0.75rem 3rem;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.botaofooter:hover {
+  background-color: #101153;
+}
+
+@media only screen and (min-width: 216px) and (max-width: 926px) {
+  .background {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .background2 {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+  }
+
+  .interno {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 35rem;
+  }
+
+  .interno2 {
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 35rem;
+  }
+
+  .box {
+    width: 100%;
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sessoes {
+    max-width: 35rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .botao1 {
+    font-size: 19px;
+  }
+
+  .botao2 {
+    font-size: 18px;
+  }
+
+  .estrutura img {
+    max-width: 16.5rem;
+  }
+
+  .atividades {
+    flex-wrap: wrap;
+  }
+
+  .imageletreiro {
+    width: 100%;
+    max-width: 45rem;
+    margin-top: -12rem;
+    position: absolute;
+    right: 8rem;
+  }
+
+  .somosbio {
+    font-size: 42px;
+  }
+}

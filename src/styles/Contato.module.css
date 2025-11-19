@@ -1,0 +1,176 @@
+.backgroundimg {
+  /*
+  background-image: url(/static/images/BioCenter-banner-principal.png);
+  */
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  color: #ffffff;
+  height: 60vh;
+  background-color: #101153;
+}
+
+.backgroundimg span {
+  font-size: 16px;
+  letter-spacing: 4px;
+  margin-left: 10rem;
+}
+
+.backgroundimg h2 {
+  margin-left: 10rem;
+}
+
+.barra {
+  background-color: #df0000;
+  padding: 2rem 6rem;
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 100%;
+  max-width: 80rem;
+  border-radius: 2rem 2rem 0.5rem 0.5rem;
+  margin-top: -6rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/static/images/footer.png);
+  z-index: 123;
+}
+
+.botaofooter {
+  background-color: #df0000;
+  color: #fff;
+  padding: 0.75rem 3rem;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.botaofooter:hover {
+  background-color: #101153;
+}
+
+.background {
+  width: 100%;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1e1e1e;
+  flex-direction: column;
+}
+
+.interno {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 80rem;
+}
+
+.box {
+  width: 100%;
+  max-width: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.box2 {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.box3 {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.box_row {
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  color: #1b1b1b;
+}
+
+.box_row p {
+  font-size: 18px;
+  margin-left: 0.6rem;
+  color: #1b1b1b;
+  max-width: 25rem;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+
+.mobile {
+  width: 100%;
+  display: flex;
+}
+
+.titulo3 {
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 216px) and (max-width: 926px) {
+  .interno2 {
+    position: relative;
+    max-width: 35rem;
+  }
+
+  .interno2 h4 {
+    color: #33a851;
+    font-size: 48px;
+  }
+
+  .interno2 p {
+    color: #3d3d3d;
+    max-width: 25rem;
+    width: 100%;
+  }
+
+  .interno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 55rem;
+  }
+
+  .box {
+    align-items: center;
+  }
+
+  .box_row {
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}

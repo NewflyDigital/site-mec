@@ -1,0 +1,297 @@
+
+.backgroundimg {
+  /*
+  background-image: url(/static/images/BioCenter-banner-principal.png);*/
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: row;
+  color: #ffffff;
+  height: 50vh;
+  background-color: #101153;
+}
+
+.backgroundimg span{
+  font-size: 28px;
+  letter-spacing: 8px;
+  font-weight: 200;
+  color: #df0000;
+}
+
+
+.banquemsomos {
+  background-image: url(/static/images/BioCenter-banner-principal.png);
+  background-position: center;
+  background-size: cover;
+
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 100%;
+  max-width: 80rem;
+  border-radius: 1rem;
+  margin-top: -10rem;
+}
+
+.background {
+  background-color: #ffffff;
+  width: 100%;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1e1e1e;
+  flex-direction: column;
+}
+
+.interno {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 80rem;
+}
+
+.interno2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 80rem;
+}
+
+.interno3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 70%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/static/images/thumb-video.jpg);
+  border-radius: 1rem;
+  z-index: 12345678;
+  padding: 10rem;
+}
+
+
+.interno4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 80rem;
+  margin-top: 3rem;
+}
+
+.box {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.box3 {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.produto {
+  width: 100%;
+  max-width: 50rem;
+  margin-top: -20rem;
+}
+
+.powder {
+  width: 100%;
+  max-width: 40rem;
+  margin-top: -35rem;
+}
+
+.titulo3 {
+  color: #ffffff;
+}
+
+
+.produtosleft {
+  width: 100%;
+  max-width: 30rem;
+  margin-left: 5rem;
+}
+
+.produtosright {
+  width: 100%;
+  max-width: 30rem;
+  margin-right: 5rem;
+}
+
+
+
+.barra {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #df0000;
+  padding: 2rem 5rem;
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 100%;
+  max-width: 80rem;
+  border-radius: 2rem 2rem 0.5rem 0.5rem;
+}
+
+.barra div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.barra img {
+  width: 100%;
+  max-width: 5rem;
+  cursor: pointer;
+}
+
+.barra p {
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 600;
+}
+
+.activeTab .mvvBox  {
+  transition: 1s ease-in-out;
+  border-bottom: 0.8rem solid #101153;
+  padding: 4rem 4rem;
+}
+
+.mvv {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mvvBox {
+  width: 100%;
+  border: 1px solid #CDCDCD;
+  padding: 4.8rem 4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 1s ease-out;
+}
+
+.mvvBox h3 {
+  color: #878787;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.mvvBox:hover {
+  transition: 1s ease-in-out;
+  border-bottom: 0.8rem solid #101153;
+  padding: 4rem 4rem;
+}
+
+
+.titulo {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.tabelaBox {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela thead th {
+  background-color: #999;
+  color: white;
+  padding: 1rem;
+  text-align: left;
+}
+
+.tabela td {
+  padding: 0.75rem 1rem;
+}
+
+.tabela tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.tabela tr:nth-child(odd) {
+  background-color: #dcdcdc;
+}
+
+.imgBox {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/static/images/footer.png);
+  z-index: 123;
+}
+
+.botaofooter {
+  background-color: #df0000;
+  color: #fff;
+  padding: 0.75rem 3rem;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.botaofooter:hover {
+  background-color: #101153;
+}
+

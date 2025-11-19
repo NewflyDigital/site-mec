@@ -1,0 +1,40 @@
+{
+  "name": "site-mec-implementos",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.6.2",
+    "@mui/material": "^5.7.0",
+    "@mui/styled-engine-sc": "^5.7.0",
+    "@mui/styles": "^5.5.1",
+    "@mui/x-date-pickers": "^6.17.0",
+    "axios": "^1.8.4",
+    "dayjs": "^1.11.10",
+    "firebase": "^10.5.2",
+    "moment": "^2.29.4",
+    "next": "^15.3.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-elastic-carousel": "^0.11.5",
+    "react-hook-form": "^7.62.0",
+    "react-input-mask": "^2.0.4",
+    "react-material-ui-carousel": "^3.4.2",
+    "styled-components": "^5.3.5",
+    "sweetalert2": "^11.6.13"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "eslint": "8.9.0",
+    "eslint-config-next": "12.1.0",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4"
+  }
+}

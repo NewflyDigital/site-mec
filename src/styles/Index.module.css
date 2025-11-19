@@ -1,0 +1,306 @@
+.background {
+  background-color: #ffffff;
+  width: 100%;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1e1e1e;
+  flex-direction: column;
+}
+
+.background3 {
+  background-color: #1e1e1e;
+  width: 100%;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  flex-direction: column;
+}
+
+
+.backgroundMovidos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/static/images/Movidos.jpg);
+  z-index: 123;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/static/images/footer.png);
+  z-index: 123;
+}
+
+.interno {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 80rem;
+}
+
+
+.interno3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 70%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/static/images/thumb-video.jpg);
+  border-radius: 1rem;
+  z-index: 12345678;
+  padding: 10rem;
+}
+
+.box {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box2 {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.box3 {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Right {
+  width: 100%;
+  max-width: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-items: flex-start;
+  margin-left: 1rem;
+}
+
+.titulo {
+  color: #000d84;
+  margin: 1rem 0rem;
+}
+
+.paragrafo {
+  color: #3D3D3D;
+  font-size: 16px;
+  width: 100%;
+}
+
+.quemsomos {
+  width: 100%;
+  max-width: 35rem;
+  border-radius: 0.5rem;
+  transition: transform 0.6s ease; /* Suaviza a rotação */
+}
+
+.quemsomos:hover {
+  transform: rotate(5deg); /* Aplica rotação ao passar o mouse */
+}
+
+
+.parceiros {
+  width: 100%;
+  max-width: 90rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.parceiros img {
+  width: 100%;
+  max-width: 18rem;
+}
+
+.parceiros h3 {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.parceiros b {
+  font-weight: 600;
+}
+
+.banparceiro {
+  width: 100%;
+  max-width: 25rem;
+}
+
+.titulo3 {
+  color: #ffffff;
+}
+
+.bgnsa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/static/images/bg-nsa.jpg);
+
+
+  background-color: #000d84;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  color: #ffffff;
+  flex-direction: column;
+}
+
+.bgnsa h2{
+  margin-top: 1rem;
+  font-size: 56px;
+}
+
+.bgnsa h4{
+  font-size: 18px;
+  color: #ffffffa4;
+  margin: 0.3rem 0rem 1rem 0rem;
+  font-weight: 600;
+}
+
+.bgnsa h3 {
+  font-size: 16px;
+  font-weight: 400;
+  border-left: 3px solid #ffffff;
+  padding: 0.3rem 0rem 0.3rem 1rem;
+}
+
+.botaonsa {
+  position:absolute;
+  margin-top: 2rem;
+  background-color: transparent;
+  color: #fff;
+  padding: 0.75rem 3rem;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  transition: 1s ease;
+  cursor: pointer;
+}
+
+.botaonsa:hover {
+  background-color: #101153;
+  border:1px solid #101153;
+  transition: 1s ease;
+}
+
+.botaofooter {
+  background-color: #df0000;
+  color: #fff;
+  padding: 0.75rem 3rem;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.botaofooter:hover {
+  background-color: #101153;
+}
+
+@media only screen and (min-width: 216px) and (max-width: 926px) {
+  .background {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .background2 {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+  }
+
+  .interno {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 35rem;
+  }
+
+  .interno2 {
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 35rem;
+  }
+
+  .box {
+    width: 100%;
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sessoes {
+    max-width: 35rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .botao1 {
+    font-size: 19px;
+  }
+
+  .botao2 {
+    font-size: 18px;
+  }
+
+  .estrutura img {
+    max-width: 16.5rem;
+  }
+
+  .atividades {
+    flex-wrap: wrap;
+  }
+
+  .imageletreiro {
+    width: 100%;
+    max-width: 45rem;
+    margin-top: -12rem;
+    position: absolute;
+    right: 8rem;
+  }
+
+  .somosbio {
+    font-size: 42px;
+  }
+}

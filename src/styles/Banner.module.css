@@ -1,0 +1,160 @@
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  background-image: url(/static/images/banner-principal.jpg);
+}
+
+.interno {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.box {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: #ffffff;
+  z-index: 123456;
+  text-shadow: 1px 1px 20px #000000;
+}
+
+.box h4 {
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 5px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 10px #000000;
+  text-transform: uppercase;
+}
+
+.box h2 {
+  text-align: left;
+  font-size: 72px;
+  font-weight: 1000;
+  line-height: 72px;
+  margin: 1rem 0rem;
+  width: 100%;
+  max-width: 50rem;
+}
+
+.box span {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.div_seta_baixo {
+  position: absolute;
+  bottom: 2rem;
+  animation: move-wheel 1.5s linear infinite;
+}
+
+.orcamento {
+  width: 15rem;
+  padding: 1rem 2.5rem;
+  background-color: #df0000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  border: 0;
+  border-radius: 0.2rem;
+  transition: 0.5s ease-in;
+  cursor: pointer;
+  border: 1px solid #df0000;
+}
+
+.orcamento:hover {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  transition: 0.5s ease-in;
+}
+
+.video {
+  padding: 1rem 2.5rem;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 0.2rem;
+  transition: 0.5s ease-in;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.video:hover {
+  background-color: #df0000;
+  border: 1px solid #df0000;
+  transition: 0.5s ease-in;
+}
+
+@keyframes move-wheel {
+  0% {
+    opacity: 0.2;
+    transform: translateY(-8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(8px);
+  }
+}
+/*
+  
+    .video {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      opacity: 70%;
+    }
+  */
+
+@media only screen and (min-width: 216px) and (max-width: 926px) {
+  .background {
+    height: 70vh;
+  }
+
+  .interno {
+    flex-direction: row;
+  }
+
+  .box {
+    max-width: 35rem;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .box h4 {
+    text-align: left;
+  }
+
+  .box h2 {
+    margin-bottom: 1rem;
+  }
+
+  .box span {
+    display: flex;
+    flex-direction: row;
+  }
+}
