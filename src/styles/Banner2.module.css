@@ -7,7 +7,7 @@
   background-position: center;
   background-size: cover;
   background-color: black;
-  background-image: url(/static/images/banner-principal.jpg);
+  background-image: url(/static/images/banner-principal2.jpg);
 }
 
 .interno {
@@ -54,6 +54,7 @@
 .box span {
   display: flex;
   flex-direction: row;
+  margin-top: 1.5rem;
 }
 
 
@@ -75,7 +76,6 @@
   font-weight: 500;
   color: #ffffff;
   border: 0;
-  border-radius: 0.2rem;
   transition: 0.5s ease-in;
   cursor: pointer;
   border: 1px solid #ff4800;
@@ -98,7 +98,6 @@
   justify-content: center;
   font-size: 16px;
   font-weight: 500;
-  border-radius: 0.2rem;
   transition: 0.5s ease-in;
   cursor: pointer;
   margin-right: 1rem;

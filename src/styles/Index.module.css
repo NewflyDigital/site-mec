@@ -1,12 +1,12 @@
 .background {
-  background-color: #ffffff;
+  background-color: #000000;
   width: 100%;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #1e1e1e;
+  color: #ffffff;
   flex-direction: column;
 }
 
@@ -43,7 +43,7 @@
   width: 100%;
   background-position: center;
   background-size: cover;
-  background-image: url(/static/images/footer.png);
+  background-image: url(/static/images/footer.jpg);
   z-index: 123;
 }
 
@@ -66,18 +66,17 @@
   background-position: center;
   background-size: cover;
   background-image: url(/static/images/thumb-video.jpg);
-  border-radius: 1rem;
   z-index: 12345678;
   padding: 10rem;
 }
 
 .box {
   width: 100%;
-  max-width: 80rem;
+  max-width: 40rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .box2 {
@@ -110,12 +109,12 @@
 }
 
 .titulo {
-  color: #000d84;
+  color: #ff4800;
   margin: 1rem 0rem;
 }
 
 .paragrafo {
-  color: #3D3D3D;
+  color: #ffffff;
   font-size: 16px;
   width: 100%;
 }
@@ -123,14 +122,12 @@
 .quemsomos {
   width: 100%;
   max-width: 35rem;
-  border-radius: 0.5rem;
-  transition: transform 0.6s ease; /* Suaviza a rotação */
+  transition: transform 0.4s ease;
 }
 
 .quemsomos:hover {
-  transform: rotate(5deg); /* Aplica rotação ao passar o mouse */
+  transform: translateX(15px);
 }
-
 
 .parceiros {
   width: 100%;
@@ -157,81 +154,73 @@
 
 .banparceiro {
   width: 100%;
-  max-width: 25rem;
+  max-width: 18rem;
+  margin-top: 5rem;
 }
 
 .titulo3 {
   color: #ffffff;
 }
 
-.bgnsa {
+.bgmec {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-
-  height: 100vh;
-  background-position: center;
-  background-size: cover;
-  background-image: url(/static/images/bg-nsa.jpg);
-
-
-  background-color: #000d84;
+  background-color: #ff4800;
   padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  padding-bottom: 5rem;
   color: #ffffff;
   flex-direction: column;
 }
 
-.bgnsa h2{
+.bgmec h2{
   margin-top: 1rem;
   font-size: 56px;
 }
 
-.bgnsa h4{
+.bgmec h4{
   font-size: 18px;
   color: #ffffffa4;
   margin: 0.3rem 0rem 1rem 0rem;
   font-weight: 600;
 }
 
-.bgnsa h3 {
+.bgmec h3 {
   font-size: 16px;
   font-weight: 400;
   border-left: 3px solid #ffffff;
   padding: 0.3rem 0rem 0.3rem 1rem;
 }
 
-.botaonsa {
+.EntreContato {
   position:absolute;
   margin-top: 2rem;
   background-color: transparent;
   color: #fff;
   padding: 0.75rem 3rem;
   text-decoration: none;
-  border-radius: 8px;
   border: 1px solid #ffffff;
   transition: 1s ease;
   cursor: pointer;
 }
 
-.botaonsa:hover {
-  background-color: #101153;
-  border:1px solid #101153;
+.EntreContato:hover {
+  background-color: #b33300;
+  border:1px solid #b33300;
   transition: 1s ease;
 }
 
 .botaofooter {
-  background-color: #df0000;
+  background-color: #ff4800;
   color: #fff;
   padding: 0.75rem 3rem;
   text-decoration: none;
-  border-radius: 8px;
   transition: background 0.3s ease;
 }
 
 .botaofooter:hover {
-  background-color: #101153;
+  background-color: #b33300;
 }
 
 @media only screen and (min-width: 216px) and (max-width: 926px) {

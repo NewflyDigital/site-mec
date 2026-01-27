@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "../styles/Banner.module.css";
+import styles from "../styles/Banner2.module.css";
 import { useState } from "react";
 
 import ModalOrcamento from "./modal";
@@ -21,10 +21,11 @@ function Banner() {
     <section className={styles.background}>
       <div className={styles.interno}>
         <div className={styles.box}>
-          <h4>Tecnologia, Resistência e Desempenho</h4>
+          <h4>Engenharia focada em performance</h4>
           <h2>
-            Para quem precisa de força, durabilidade e resultado
+            Equipamentos desenvolvidos para força, durabilidade e eficiência
           </h2>
+
           <span>
             <Link legacyBehavior href="/">
               <a>
@@ -67,7 +68,7 @@ function Banner() {
       loop
       />
  */}
- 
+
       {/* Modal de vídeo */}
       <ModalVideo open={showVideo} onClose={() => setShowVideo(false)} />
       {/* Modal */}

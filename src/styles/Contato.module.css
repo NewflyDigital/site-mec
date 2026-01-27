@@ -10,7 +10,7 @@
   flex-direction: row;
   color: #ffffff;
   height: 60vh;
-  background-color: #101153;
+  background-color: #b33300;
 }
 
 .backgroundimg span {
@@ -24,7 +24,7 @@
 }
 
 .barra {
-  background-color: #df0000;
+  background-color: #ff4800;
   padding: 2rem 6rem;
   font-size: 24px;
   font-weight: 600;
@@ -48,7 +48,7 @@
 }
 
 .botaofooter {
-  background-color: #df0000;
+  background-color: #ff4800;
   color: #fff;
   padding: 0.75rem 3rem;
   text-decoration: none;
@@ -57,7 +57,7 @@
 }
 
 .botaofooter:hover {
-  background-color: #101153;
+  background-color: #b33300;
 }
 
 .background {
@@ -115,13 +115,13 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 5px;
-  color: #1b1b1b;
+  color: #ffffff;
 }
 
 .box_row p {
   font-size: 18px;
   margin-left: 0.6rem;
-  color: #1b1b1b;
+  color: #ffffff;
   max-width: 25rem;
   line-height: 30px;
   margin-bottom: 5px;

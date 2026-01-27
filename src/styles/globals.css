@@ -2,7 +2,7 @@
 @tailwind utilities;
 
 :root {
-  --color-primary: #000;
+  --color-primary: #fff;
   --color-secondary: #33A851;
 }
 
@@ -10,14 +10,14 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Inter;
+  font-family: Barlow;
   font-size: 15px;
   font-weight: 400;
-  color: #000;
+  color: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-  background-color: #fff !important;
+  background-color: #000000 !important;
 }
 
 a {
@@ -146,6 +146,21 @@ h4 {
   font-size: 1em !important;
 }
 
+.MuiOutlinedInput {
+  color: aqua;
+}
+
+.MuiInputBase {
+  color: #33A851;
+}
+
+.MuiFormLabel-root {
+  color: aqua;
+}
+
+.MuiInputLabel-root.Mui-focused {
+  color: #33A851;
+}
 @media only screen and (min-width: 216px) and (max-width: 926px) {
   .MuiButtonBase-root {
     display: flex;

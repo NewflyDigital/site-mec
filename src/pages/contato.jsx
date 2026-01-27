@@ -21,6 +21,7 @@ import Rodape from "../components/rodape";
 import GoogleMap from "../components/map";
 import CssBaseline from "@mui/material/CssBaseline";
 import Whats from "../components/whats";
+import Link from "next/link";
 
 const Alert = React.forwardRef(function Alert(props, ref) {
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
@@ -28,12 +29,12 @@ const Alert = React.forwardRef(function Alert(props, ref) {
 
 const themeOptions = {
   palette: {
-    type: "black",
+    type: "white",
     primary: {
-      main: "#101153",
+      main: "#ff4800",
     },
     secondary: {
-      main: "#9f9f9f",
+      main: "#ffffff",
     },
   },
 };
@@ -221,7 +222,7 @@ export default function Modal() {
                     <Button
                       type="submit"
                       variant="contained"
-                      className="!text-[1em] !font-[600] !p-[.75rem] !bg-[#df0000]"
+                      className="!text-[1em] !font-[600] !p-[.75rem] !bg-[#ff4800]"
                       sx={{ width: "100%", maxWidth: "250px" }}
                       disabled={disableButton}
                     >
@@ -239,12 +240,14 @@ export default function Modal() {
         <section className={styles.footer}>
           <div className={styles.interno}>
             <div className={styles.box3}>
-              <h2 className={styles.titulo3}>Representações estratégicas</h2>
+              <h2 className={styles.titulo3}>Soluções em Implementos</h2>
             </div>
             <div className={styles.box2}>
-              <a href="/" className={styles.botaofooter}>
-                Entre em Contato
+             <Link legacyBehavior href="https://api.whatsapp.com/send?phone=5527998634303&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20MEC%20Implementos">
+              <a target="_blank"  className={styles.botaofooter}>
+               Fale Conosco
               </a>
+             </Link>
             </div>
           </div>
         </section>

@@ -33,12 +33,12 @@ function Rodape() {
               alt="Logo Flow"
               className={styles.logo}
             />
-            <p><b>Uberlândia/MG</b><br />
-              Travessa Antonio Fonseca e Silva, 16
+            <p><b>Serra/ES</b><br />
+              Rua Carcará, 07
               <br />
-               Nossa Senhora Aparecida, Uberlândia
+              Rua Carcará, Novo Horizonte
               <br />
-              CEP: 38.400-676 - MG
+              CEP: 29.163-356 - ES
             </p>
             </div>
 
@@ -67,7 +67,7 @@ function Rodape() {
               <div className={styles.icones}>
                 <Link
                   legacyBehavior
-                  href="https://www.instagram.com/nsaimplementos/"
+                  href="https://www.instagram.com/mec_hidraulicas/"
                 >
                   <a target="_blank">
                     <img src="/instagram.png" alt="Instagram" />
@@ -75,7 +75,7 @@ function Rodape() {
                 </Link>
                 <Link
                   legacyBehavior
-                  href="https://www.facebook.com/profile.php?id=61574426592013"
+                  href="https://www.facebook.com/mecservicosepecashidraulicas"
                 >
                   <a target="_blank">
                     <img src="/facebook.png" alt="Facebook" />
@@ -83,7 +83,7 @@ function Rodape() {
                 </Link>
               </div>
               <p>
-                <strong>Siga a NSA</strong>
+                <strong>Siga a mec</strong>
                 <br />
                 nas redes Sociais
               </p>

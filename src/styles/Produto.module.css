@@ -17,7 +17,7 @@
   font-size: 28px;
   letter-spacing: 8px;
   font-weight: 200;
-  color: #df0000;
+  color: #ff4800;
 }
 
 
@@ -153,7 +153,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #df0000;
+  background-color: #ff4800;
   padding: 2rem 5rem;
   font-size: 24px;
   font-weight: 600;
@@ -283,7 +283,7 @@
 }
 
 .botaofooter {
-  background-color: #df0000;
+  background-color: #ff4800;
   color: #fff;
   padding: 0.75rem 3rem;
   text-decoration: none;

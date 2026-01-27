@@ -20,7 +20,7 @@
   background-color: transparent;
   justify-content: center;
   align-items: center;
-  color: #000000;
+  color: #ffffff;
   z-index: 1234567890;
   transition: all 1s;
   flex-direction: column;
@@ -46,7 +46,7 @@
 }
 .logo img {
   width: 100%;
-  max-width: 16rem;
+  max-width: 10rem;
 }
 
 .menu {
@@ -66,7 +66,7 @@
   display: flex;
   position: relative;
   bottom: 0rem;
-  font-family: Inter;
+  font-family: Barlow;
   font-weight: 500;
   font-size: medium;
   padding: 1.5rem 0rem 1.5rem 0rem; 
@@ -76,14 +76,15 @@
 }
 
 .navbar .li:hover {
-  border-bottom: 7px solid #df0000;
+  border-bottom: 7px solid #ff4800;
   transition: 0.5s ease-in;
+  color: #ff4800;
 }
 
 .contato {
   width: 13rem;
   padding: 0.8rem 1rem;
-  background-color: #101153;
+  background-color: #ff4800;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -92,13 +93,12 @@
   font-weight: 500;
   color: #ffffff;
   border: 0;
-  border-radius: 0.2rem;
   transition: 0.5s ease-in;
   cursor: pointer;
 } 
 
 .contato:hover {
-  background-color: #003a6f;
+  background-color: #b33300;
   transition: 0.5s ease-in;
 } 
 
@@ -138,12 +138,11 @@
 
 .botaoReposicao {
   display: inline-block;
-  background-color: #df0000;
+  background-color: #ff4800;
   color: white;
   padding: 1rem 2rem;
   margin-top: 3rem;
   font-weight: bold;
-  border-radius: 4px;
   width: 100%;
   max-width: 15rem;
 }
@@ -154,11 +153,12 @@
 }
 
 #menuheader {
-  background-color: #ffffff71;
+  background-color: #000000;
 }
 
 #menuheader.menu-alternative {
   transition: all 1s;
+  background-color: #000000c4;
 }
 
 #menuheader.navbar li:hover {

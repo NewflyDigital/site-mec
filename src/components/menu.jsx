@@ -64,7 +64,7 @@ function Menu() {
             </Link>
           </li>
           <li className={styles.li}>
-            <Link legacyBehavior href="/mec">
+            <Link legacyBehavior href="/a-mec">
               <a>A MEC</a>
             </Link>
           </li>
@@ -83,17 +83,12 @@ function Menu() {
                   <div className={styles.submenuInterno}>
                     <Link legacyBehavior href="/produtos?categoria=Guindaste%20Linha%20Canivete">
                       <a>
-                        <img src="/static/images/parceiros-ING.png" />
+                        <img src="/static/images/parceiros/logo-tka.png" />
                       </a>
                     </Link>
                     <Link legacyBehavior href="/produtos?categoria=Guindaste%20Linha%20Trave">
                       <a>
-                        <img src="/static/images/parceiros-Termolog.png" />
-                      </a>
-                    </Link>
-                    <Link legacyBehavior href="/produtos?categoria=Acessorios">
-                      <a>
-                        <img src="/static/images/parceiros-Gotti.png" />
+                        <img src="/static/images/parceiros/logo-tecnnic.png" />
                       </a>
                     </Link>
                   </div>
@@ -103,7 +98,7 @@ function Menu() {
           </li>
 
           <li className={styles.li}>
-            <Link legacyBehavior href="/#OndeAtendemos">
+            <Link legacyBehavior href="/index2#OndeAtendemos">
               <a>Onde Atendemos</a>
             </Link>
           </li>

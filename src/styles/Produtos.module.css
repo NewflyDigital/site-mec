@@ -17,7 +17,7 @@
   font-size: 28px;
   letter-spacing: 8px;
   font-weight: 200;
-  color: #df0000;
+  color: #ff4800;
 }
 
 
@@ -178,11 +178,11 @@
 }
 
 .cardAzul {
-  background-color: #000d84;
+  background-color: #ff4800;
 }
 
 .cardVermelho {
-  background-color: #df0000;
+  background-color: #ff4800;
 }
 
 
@@ -255,7 +255,7 @@
 }
 
 .cardProduto:hover {
-  border: 1px solid #df0000;
+  border: 1px solid #ff4800;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   transition: 1s ease;
 }
@@ -287,13 +287,13 @@
 }
 
 .cardProduto:hover span {
-  background-color: #df0000;
+  background-color: #ff4800;
   color: #ffffff;
   transition: 1s ease;
 }
 
 .botaofooter {
-  background-color: #df0000;
+  background-color: #ff4800;
   color: #fff;
   padding: 0.75rem 3rem;
   text-decoration: none;

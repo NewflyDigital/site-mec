@@ -1,4 +1,4 @@
-import styles from "../styles/Nsa.module.css";
+import styles from "../styles/Mec.module.css";
 import { useState } from "react";
 import Menu from "../components/menu";
 import Rodape from "../components/rodape";
@@ -16,7 +16,7 @@ export default function QuemSomos() {
         <div className={styles.box}>
           <span>CONHEÇA A</span>
           <br />
-          <h2>NSA Representações</h2>
+          <h2>MEC Implementos Hidráulicos</h2>
         </div>
       </section>
 
@@ -30,41 +30,37 @@ export default function QuemSomos() {
       <section className={styles.background}>
         <div className={styles.interno}>
           <div className={styles.box}>
-            <h2 className={styles.titulo}>NSA Implementos</h2>
-            <p className={styles.paragrafo2}>
-              <h4>
-                Inovação, robustez e soluções sob medida para o transporte e o
-                campo.
-              </h4>
+            <a className={styles.paragrafo2}>
+              <h2>Onde Atendemos</h2>
+              <h4>Atuação regional com suporte técnico próximo.</h4>
+
               <p>
-                A NSA Implementos é especialista no desenvolvimento,
-                personalização e reforma de implementos rodoviários e
-                equipamentos hidráulicos. Com uma estrutura sólida e equipe
-                qualificada, entregamos soluções que aliam tecnologia,
-                durabilidade e desempenho.
+                A MEC atua de forma estratégica no estado do Espírito Santo,
+                oferecendo atendimento ágil, orientação especializada e
+                proximidade com cada cliente.
               </p>
+
               <p>
-                Nosso compromisso é oferecer produtos e serviços que realmente
-                façam a diferença na rotina dos nossos clientes — seja no
-                transporte, na logística ou nas operações de carga e descarga.
+                Como representante da TKA Cranes e dos controles Tecnnic,
+                levamos soluções confiáveis para operações de elevação,
+                movimentação de cargas e aplicações rodoviárias.
               </p>
+
               <p>
-                Atendemos diversos segmentos, com foco em resultados reais,
-                segurança e confiabilidade. Cada projeto é tratado de forma
-                única, com atenção ao detalhe e à necessidade específica de cada
-                operação.
+                <strong>TKA Cranes e Tecnnic:</strong> atuação em todo o estado
+                do Espírito Santo, com suporte técnico e acompanhamento
+                especializado.
               </p>
+
               <h3>
-                🛠 Qualidade em cada solda, força em cada detalhe. <br />
+                Presença regional que se traduz em confiança, suporte e parceria
+                em cada operação.
               </h3>
-              <h3>
-                NSA: Mais que implementos. Soluções que movem o seu negócio.
-                <br />
-              </h3>
-              <Link legacyBehavior href="/">
-                <a className={styles.botaonsa}>Conheça nossos serviços +</a>
+
+              <Link legacyBehavior href="/contato">
+                <span className={styles.botaomec}>Entre em contato +</span>
               </Link>
-            </p>
+            </a>
           </div>
           <div className={styles.box}>
             <img
@@ -101,24 +97,28 @@ export default function QuemSomos() {
       <section className={styles.background}>
         <div className={styles.interno2}>
           <div className={styles.box}>
-            <h2 className={styles.titulo2}>Representações Estratégicas </h2>
+            <h2 className={styles.titulo2}>Soluções em Implementos</h2>
             <p className={styles.paragrafo}>
-              A NSA Implementos atua como representante oficial de grandes
-              marcas do setor, oferecendo soluções completas para transporte,
-              movimentação de cargas e refrigeração.
-              <br /> <br />
-              Com presença consolidada em diversas regiões do Brasil, garantimos
-              atendimento especializado, suporte técnico e produtos que unem
-              tecnologia, robustez e desempenho.
-              <br /> <br />
-              Nosso objetivo é conectar clientes às melhores soluções do mercado
-              — com atendimento personalizado e foco total em resultados.
+              A MEC atua como representante de marcas reconhecidas no setor de
+              implementos rodoviários, oferecendo soluções voltadas à
+              movimentação e elevação de cargas.
+              <br />
+              Com atuação regional e foco em proximidade, garantimos atendimento
+              especializado, orientação técnica e equipamentos que unem
+              tecnologia, resistência e desempenho operacional.
+              <br />
+              Nosso propósito é apoiar cada cliente na escolha da solução certa,
+              entregando confiança, suporte e resultado em cada operação.
             </p>
           </div>
-          <div className={styles.box}>
+          <div className={styles.parceiros}>
             <img
-              className={styles.parceiros}
-              src="/static/images/parceiros.jpg"
+              className={styles.parceirosimg}
+              src="/static/images/parceiros/logo-tecnnic-branco.png"
+            />
+            <img
+              className={styles.parceirosimg}
+              src="/static/images/parceiros/logo-tka-branco.png"
             />
           </div>
         </div>
@@ -127,11 +127,11 @@ export default function QuemSomos() {
       <section className={styles.footer}>
         <div className={styles.interno}>
           <div className={styles.box3}>
-            <h2 className={styles.titulo3}>Representações estratégicas</h2>
+            <h2 className={styles.titulo3}>Soluções em Implementos</h2>
           </div>
           <div className={styles.box2}>
             <a href="/contato" className={styles.botaofooter}>
-              Entre em Contato
+              Fale Conosco
             </a>
           </div>
         </div>

@@ -1,12 +1,12 @@
 .background {
-  background-color: #ffffff;
+  background-color: #000000;
   width: 100%;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #1e1e1e;
+  color: #ffffff;
   flex-direction: column;
 }
 
@@ -19,16 +19,16 @@
   justify-content: center;
   align-items:center;
   flex-direction: row;
-  color: #ffffff;
+  color: #ff4800;
   height: 50vh;
-  background-color: #101153;
+  background-color: #ffffff;
 }
 
 .backgroundimg span{
   font-size: 28px;
   letter-spacing: 8px;
   font-weight: 200;
-  color: #df0000;
+  color: #000000;
 }
 
 .backgroundMovidos {
@@ -94,24 +94,15 @@
   padding: 10rem;
 }
 
-
-.titulo {
-  color: #002c5e;
-  margin-bottom: 3rem;
-}
-
-.titulo2 {
-  color: #002c5e;
-  margin-bottom: 1rem;
-}
 .paragrafo {
-  color: #3D3D3D;
-  font-size: 16px;
+  color: #ffffff;
+  font-size: 18px;
   width: 100%;
+  line-height: 28px;
 }
 
 .paragrafo2 {
-  color: #3D3D3D;
+  color: #ffffff;
   font-size: 16px;
   width: 100%;
 }
@@ -130,33 +121,35 @@
 .paragrafo2 h3 {
   font-size: 16px;
   font-weight: 400;
-  border-left: 3px solid #002c5e;
+  border-left: 3px solid #ff4800;
   padding: 0.3rem 0rem 0.3rem 1rem;
 }
 
-.botaonsa {
+.botaomec {
   position:absolute;
   margin-top: 2rem;
   background-color: transparent;
-  color: #002c5e;
+  color: #ffffff;
   padding: 0.75rem 3rem;
   text-decoration: none;
   border-radius: 8px;
-  border: 1px solid #002c5e;
+  border: 1px solid #ffffff;
   transition: 1s ease;
   cursor: pointer;
 }
 
-.botaonsa:hover {
-  background-color: #002c5e;
+.botaomec:hover {
+  background-color: #ff4800;
   color: #ffffff;
-  border: 1px solid #002c5e;
+  border: 1px solid #ff4800;
   transition: 1s ease;
 }
 
 
-.titulo3 {
-  color: #ffffff;
+.titulo2 {
+  color: #ff4800;
+  font-size: 48px;
+  margin-bottom: 1rem;
 }
 
 .quemsomos {
@@ -168,8 +161,14 @@
 .parceiros {
   width: 100%;
   max-width: 40rem;
+  display: flex;
+  flex-direction: row;
 }
 
+.parceirosimg {
+  width: 100%;
+  max-width: 15rem;
+}
 .box {
   width: 100%;
   max-width: 80rem;
@@ -206,12 +205,12 @@
   width: 100%;
   background-position: center;
   background-size: cover;
-  background-image: url(/static/images/footer.png);
+  background-image: url(/static/images/footer.jpg);
   z-index: 123;
 }
 
 .botaofooter {
-  background-color: #df0000;
+  background-color: #ff4800;
   color: #fff;
   padding: 0.75rem 3rem;
   text-decoration: none;
@@ -220,5 +219,5 @@
 }
 
 .botaofooter:hover {
-  background-color: #101153;
+  background-color: #ff4800;
 }
