@@ -56,7 +56,7 @@
   width: 100%;
   background-position: center;
   background-size: cover;
-  background-image: url(/static/images/footer.png);
+  background-image: url(/static/images/footer.jpg);
   z-index: 123;
 }
 
@@ -178,7 +178,7 @@
 }
 
 .cardAzul {
-  background-color: #ff4800;
+  background-color: #000000;
 }
 
 .cardVermelho {

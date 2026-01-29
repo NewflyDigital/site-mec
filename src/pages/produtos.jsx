@@ -3,7 +3,6 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 
-
 import Banner from "../components/banner";
 import Menu from "../components/menu";
 import styles from "../styles/Produtos.module.css";
@@ -14,8 +13,7 @@ import Whats from "../components/whats";
 import RodapeNewFly from "../components/rodape-newfly";
 
 export default function Produtos() {
-  
-const [hovered, setHovered] = useState(null);
+  const [hovered, setHovered] = useState(null);
 
   const router = useRouter();
 
@@ -28,71 +26,47 @@ const [hovered, setHovered] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState(null);
 
   const produtos = [
-   {/*
-     {
-      id: 1,
-      nome: "80.500",
-      imagem: "/static/images/Produtos/ING/80-500-Trave.png",
-      categoria: "Guindaste Linha Trave",
-      slug: "produto-01",
-    },
     {
-      id: 2,
-      nome: "52.500 C ",
-      imagem: "/static/images/Produtos/ING/52-500-Canivete.png",
-      categoria: "Guindaste Linha Canivete",
-      slug: "produto-01",
-    },
-    {
-      id: 3,
-      nome: "Rádio Controle",
-      imagem: "/static/images/Produtos/ING/Radio-Controle-Acessorios.png",
-      categoria: "Acessorios",
-      slug: "produto-01",
-    },
-    */
-     
       id: 1,
-      nome: "EM BREVE",
-      imagem: "/static/images/Produtos/ING/EmBreve.png",
+      nome: "EM BREVE2",
+      imagem: "/static/images/Produtos/canivete/EmBreve.png",
       categoria: "Guindaste Linha Trave",
-      slug: "",
+    url: "LINK",
     },
     {
       id: 2,
       nome: "EM BREVE",
-      imagem: "/static/images/Produtos/ING/EmBreve.png",
+      imagem: "/static/images/Produtos/trave/EmBreve.png",
       categoria: "Guindaste Linha Canivete",
-      slug: "",
+    url: "LINK",
     },
     {
       id: 3,
       nome: "EM BREVE",
-      imagem: "/static/images/Produtos/ING/EmBreve.png",
+      imagem: "/static/images/Produtos/tecnnic/EmBreve.png",
       categoria: "Acessorios",
-      slug: "",
+    url: "LINK",
     },
-  
   ];
 
   const categorias = [
     {
-      nome: "Guindaste Linha Canivete",
+      nome: "Linha Canivete",
       categoria: "Guindaste Linha Canivete",
       cor: "cardCinza",
-      imagem: "/static/images/produtos/ING/Menu-52-500-Canivete.png", // nova imagem
+      imagem: "/static/images/produtos/categorias-canivete.png",
     },
     {
-      nome: "Guindaste Linha Trave",
+      nome: "Linha Trave",
       categoria: "Guindaste Linha Trave",
       cor: "cardAzul",
-      imagem: "/static/images/produtos/ING/Menu-80-500-Trave.png", // nova imagem
+      imagem: "/static/images/produtos/categorias-trave.png",
     },
     {
-      nome: "Acessorios",
+      nome: "Tecnnic",
       categoria: "Acessorios",
       cor: "cardVermelho",
-      imagem: "/static/images/produtos/ING/Menu-Radio-Controle-Acessorios.png", // nova imagem
+      imagem: "/static/images/produtos/categorias-tecnnic.png",
     },
   ];
 
@@ -108,7 +82,7 @@ const [hovered, setHovered] = useState(null);
         <div className={styles.box}>
           <span>PRODUTOS</span>
           <br />
-          <h2>NSA Representações</h2>
+          <h2>MEC HIDRAULICAS</h2>
         </div>
       </section>
 
@@ -128,9 +102,9 @@ const [hovered, setHovered] = useState(null);
               <div key={filtro.categoria}>
                 <a
                   onClick={() => handleFilter(filtro.categoria)}
-  onMouseEnter={() => setHovered(filtro.categoria)}
-  onMouseLeave={() => setHovered(null)}
-  className={`${styles.card} ${styles[filtro.cor]} ${isSelected ? styles.selected : ""}`}
+                  onMouseEnter={() => setHovered(filtro.categoria)}
+                  onMouseLeave={() => setHovered(null)}
+                  className={`${styles.card} ${styles[filtro.cor]} ${isSelected ? styles.selected : ""}`}
                 >
                   {/* Imagem com animação e condição */}
                   <div className={styles.cardHoverImage}>
@@ -152,10 +126,10 @@ const [hovered, setHovered] = useState(null);
             {produtos
               .filter(
                 (produto) =>
-                  !selectedCategory || produto.categoria === selectedCategory
+                  !selectedCategory || produto.categoria === selectedCategory,
               )
-              .map((produto) => (
-                <Link legacyBehavior href={`/${produto.slug}`} key={produto.id}>
+              .map((produto) => {
+                const Card = (
                   <div className={styles.cardProduto}>
                     <img src={produto.imagem} alt={produto.nome} />
                     <span>
@@ -163,19 +137,34 @@ const [hovered, setHovered] = useState(null);
                       <h3>{produto.nome}</h3>
                     </span>
                   </div>
-                </Link>
-              ))}
+                );
+
+                return produto.url ? (
+                  <a
+                    key={produto.id}
+                    href={produto.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {Card}
+                  </a>
+                ) : (
+                  <div key={produto.id} className={styles.disabled}>
+                    {Card}
+                  </div>
+                );
+              })}
           </div>
         </div>
       </section>
       <section className={styles.footer}>
         <div className={styles.interno}>
           <div className={styles.box3}>
-            <h2 className="text-white">Representações estratégicas</h2>
+            <h2 className="text-white">Soluções em Implementos</h2>
           </div>
           <div className={styles.box2}>
             <a href="/contato" className={styles.botaofooter}>
-              Entre em Contato
+              Fale Conosco
             </a>
           </div>
         </div>
