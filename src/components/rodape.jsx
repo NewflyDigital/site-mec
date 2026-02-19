@@ -53,13 +53,13 @@ function Rodape() {
               <Link legacyBehavior href="/mec">
                 <a>A MEC</a>
               </Link>
-              <Link legacyBehavior href="">
+              <Link legacyBehavior href="/produtos">
                 <a>Equipamentos</a>
               </Link>
               <Link legacyBehavior href="#OndeAtendemos">
                 <a>Onde Atendenmos</a>
               </Link>
-              <Link legacyBehavior href="/">
+              <Link legacyBehavior href="/contato">
                 <a>Contato</a>
               </Link>
             </div>            
@@ -70,7 +70,7 @@ function Rodape() {
                   href="https://www.instagram.com/mec_hidraulicas/"
                 >
                   <a target="_blank">
-                    <img src="/instagram.png" alt="Instagram" />
+                    <img src="/instagram-branco.png" alt="Instagram" />
                   </a>
                 </Link>
                 <Link
@@ -78,7 +78,7 @@ function Rodape() {
                   href="https://www.facebook.com/mecservicosepecashidraulicas"
                 >
                   <a target="_blank">
-                    <img src="/facebook.png" alt="Facebook" />
+                    <img src="/facebook-branco.png" alt="Facebook" />
                   </a>
                 </Link>
               </div>

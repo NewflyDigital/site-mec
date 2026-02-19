@@ -30,13 +30,13 @@ export const SendContato = async ({ nome = "", email = "", telefone = "", empres
 
   const body = {
     sender: {
-      name: `Site NSA Implementos`,
-      email: `nsabrevo@gmail.com`, // remetente autorizado na Brevo
+      name: `Site MEC Implementos`,
+      email: `contato@mecservicosepecas.com.br`, // remetente autorizado na Brevo
     },
     to: [
       {
-        email: `contato@nsaimplementos.com.br`, // destinatário
-        name: `Site NSA Implementos`,
+        email: `fabioa.slima1@gmail.com`, // destinatário
+        name: `Site MEC Implementos`,
       },
     ],
     subject,
