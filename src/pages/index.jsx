@@ -134,7 +134,7 @@ export default function Home() {
             <img
               className={styles.quemsomos}
               src="static/images/quem-somos.jpg"
-              alt="NSA Implementos"
+              alt="MEC Implementos"
             />
           </div>
         </div>
