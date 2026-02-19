@@ -98,7 +98,7 @@ function Menu() {
           </li>
 
           <li className={styles.li}>
-            <Link legacyBehavior href="/index2#OndeAtendemos">
+            <Link legacyBehavior href="/#OndeAtendemos">
               <a>Onde Atendemos</a>
             </Link>
           </li>

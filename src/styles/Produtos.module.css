@@ -78,7 +78,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 80rem;
+  max-width: 90rem;
   margin: 0 auto;
   margin-top: -7rem;
   background-color: transparent;
@@ -198,7 +198,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 80rem;
+  max-width: 90rem;
 }
 
 .box {
@@ -240,7 +240,8 @@
 }
 
 .cardProduto {
-  max-width: 20rem;
+  width: 20rem;
+  max-width: 25rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -250,7 +251,7 @@
   overflow: hidden;
   background-color: #ffffff;
   transition: 1s ease;
-  margin: 1rem;
+  margin: 2rem 1rem;
   cursor: pointer;
 }
 
@@ -262,8 +263,9 @@
 
 
 .cardProduto img {
-  max-width: 18rem;
-  height: auto;
+  width: 100%;
+  max-width: 17rem;
+  height: 100%;
   margin-top: 1rem;
 }
 
@@ -281,9 +283,10 @@
   width: 100%;
   background-color: #ffffff;
   color: #101153;
-  margin: 0;
+  margin: 15px 0px 0px 0px;
   padding: 1rem;
   transition: 1s ease;
+  border-top: 1px solid #d8d8d8;
 }
 
 .cardProduto:hover span {
