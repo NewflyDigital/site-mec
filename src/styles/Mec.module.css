@@ -17,14 +17,14 @@
   background-size: cover;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   flex-direction: row;
   color: #ff4800;
   height: 50vh;
   background-color: #ffffff;
 }
 
-.backgroundimg span{
+.backgroundimg span {
   font-size: 28px;
   letter-spacing: 8px;
   font-weight: 200;
@@ -43,7 +43,6 @@
   z-index: 123;
 }
 
-
 .backgroundHistoria {
   display: flex;
   justify-content: center;
@@ -57,7 +56,6 @@
 }
 
 .banquemsomos {
-  
   background-image: url(/static/images/BioCenter-banner-principal.png);
   background-position: center;
   background-size: cover;
@@ -107,12 +105,12 @@
   width: 100%;
 }
 
-.paragrafo2 h2{
+.paragrafo2 h2 {
   margin-top: 1rem;
   font-size: 56px;
 }
 
-.paragrafo2 h4{
+.paragrafo2 h4 {
   font-size: 18px;
   margin: 0.3rem 0rem 1rem 0rem;
   font-weight: 600;
@@ -126,7 +124,7 @@
 }
 
 .botaomec {
-  position:absolute;
+  position: absolute;
   margin-top: 2rem;
   background-color: transparent;
   color: #ffffff;
@@ -145,7 +143,6 @@
   transition: 1s ease;
 }
 
-
 .titulo2 {
   color: #ff4800;
   font-size: 48px;
@@ -163,11 +160,12 @@
   max-width: 40rem;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .parceirosimg {
   width: 100%;
-  max-width: 15rem;
+  max-width: 10rem;
 }
 .box {
   width: 100%;
@@ -195,7 +193,6 @@
   justify-content: flex-start;
   align-items: center;
 }
-
 
 .footer {
   display: flex;

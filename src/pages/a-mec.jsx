@@ -120,6 +120,14 @@ export default function QuemSomos() {
               className={styles.parceirosimg}
               src="/static/images/parceiros/logo-tka-branco.png"
             />
+            <img
+              className={`${styles.parceirosimg} mr-4`}
+              src="/static/images/parceiros/logo-morumbi.png"
+            />
+            <img
+              className={styles.parceirosimg}
+              src="/static/images/parceiros/logo-busa.jpg"
+            />
           </div>
         </div>
       </section>

@@ -23,11 +23,18 @@ export default function Home() {
       <Banner2 />
       <section className={styles.background3}>
         <div className={styles.parceiros}>
+          {/* 
           <h3>
             Selecione uma <b>marca</b>
           </h3>
+          */}
+          <h3>
+            Nossas <b>marcas</b>
+          </h3>
           <img src="/static/images/Parceiros/logo-tka-branco.png" />
           <img src="/static/images/Parceiros/logo-tecnnic-branco.png" />
+          <img src="/static/images/Parceiros/logo-morumbi-branco.png" />
+          <img src="/static/images/Parceiros/logo-busa-branco.png" />
         </div>
       </section>
 

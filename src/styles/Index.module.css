@@ -22,7 +22,6 @@
   flex-direction: column;
 }
 
-
 .backgroundMovidos {
   display: flex;
   justify-content: center;
@@ -55,7 +54,6 @@
   width: 100%;
   max-width: 80rem;
 }
-
 
 .interno3 {
   display: flex;
@@ -174,12 +172,12 @@
   flex-direction: column;
 }
 
-.bgmec h2{
+.bgmec h2 {
   margin-top: 1rem;
   font-size: 56px;
 }
 
-.bgmec h4{
+.bgmec h4 {
   font-size: 18px;
   color: #ffffffa4;
   margin: 0.3rem 0rem 1rem 0rem;
@@ -194,7 +192,7 @@
 }
 
 .EntreContato {
-  position:absolute;
+  position: absolute;
   margin-top: 2rem;
   background-color: transparent;
   color: #fff;
@@ -207,7 +205,7 @@
 
 .EntreContato:hover {
   background-color: #b33300;
-  border:1px solid #b33300;
+  border: 1px solid #b33300;
   transition: 1s ease;
 }
 
